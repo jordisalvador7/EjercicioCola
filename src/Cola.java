@@ -1,5 +1,6 @@
+
 public interface Cola {
 public int size();
-public Object pop();
-public void (Object E);
+public void push(Object e) throws FullQueueException;
+public Object pop() throws EmptyQueueException;
 }
